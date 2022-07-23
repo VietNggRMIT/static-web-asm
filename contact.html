@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/styles.css">
+        <title>Contact Us</title>
+    </head>
+    <body>
+        <header>
+            <div class="header-wrapper">
+                <img class="store-logo" src="images/store-logo.png" alt="Book store logo">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="category.html">Category 1</a></li>
+                        <li><a href="category.html">Category 2</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="contact-wrapper">
+                <div class="contact-title"><h1>Contact Us</h1></div>
+                <form>
+
+                    <div class="form-row">
+                        <div class="form-label">
+                            <label for="purpose">Contact purpose</label>
+                        </div>
+                        <div class="form-field">
+                            <select name="purpose" id="purpose">
+                                <option value="sell">I want to sell books</option>
+                                <option value="buy">I want to buy books</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="form-label">
+                            <label for="name">Your name</label>
+                        </div>
+                        <div class="form-field">
+                            <input required type="text" id="name" name="name" maxlength="255">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-label">
+                            <label for="email">Your email</label>
+                        </div>
+                        <div class="form-field">
+                            <input required type="email" id="email" name="email">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-label">
+                            <label for="phone">Your phone</label>
+                        </div>
+                        <div class="form-field">
+                            <input required type="tel" id="phone" name="phone" pattern="[0-9]{9,13}" title="Enter 9 to 13 digits">
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-label">
+                            <label>How can we contact you:</label>
+                        </div>
+                        <div class="form-field">
+                            <ul>
+                                <li>
+                                    <input type="checkbox" id="contact_email" name="contact_method" value="email">
+                                    <lable for="contact_email">By email</lable>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="contact_phone" name="contact_method" value="phone">
+                                    <lable for="contact_phone">By phone</lable>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-label">
+                            <label>Do you want to receive our newsletters:</label>
+                        </div>
+                        <div class="form-field">
+                            <ul>
+                                <li>
+                                    <input type="radio" id="yes_news" name="receive_newsletters" value="yes" checked>
+                                    <lable for="yes_news">Yes</lable>
+                                </li>
+                                <li>
+                                    <input type="radio" id="no_news" name="receive_newsletters" value="no">
+                                    <lable for="no_news">No</lable>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-label">
+                          <label for="note">Note</label>
+                        </div>
+                        <div class="form-field">
+                          <textarea cols="40" rows="10" id="note" name="note" required></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <input type="reset" value="Reset">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-wrapper">
+                <nav>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Copyright</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>  
+                </nav>
+            </div>
+        </footer>
+    </body>
+</html>
