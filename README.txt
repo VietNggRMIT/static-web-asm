@@ -1,3 +1,7 @@
+Online Website URL: https://vietnggrmit.github.io/index.html
+
+Github Repository: https://github.com/VietNggRMIT/VietNggRMIT.github.io
+
 Works Cited
 1. Bookstore Logo: https://www.pinterest.com/pin/559994534886748136/
 2. Doraemon Vol1 Cover: https://en.wikipedia.org/wiki/Doraemon#/media/File:Doraemon_volume_1_cover.jpg
